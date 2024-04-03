@@ -9,11 +9,11 @@ import { GameSettledEvent } from "../types";
 
 const config = {
   // Add your Solana RPC URL, can be obtained from https://dev.helius.xyz
-  solanaRpcUrl: "<SOLANA_RPC_URL>",
+  solanaRpcUrl: "https://mainnet.helius-rpc.com/?api-key=5566db19-f90e-48fc-8b76-e739b5632756",
   // Add your Telegram bot token, can be obtained from @BotFather
-  botToken: "<TELEGRAM_BOT_TOKEN>",
+  botToken: "7081073059:AAFqwsPHlZjh9qgioygJZU5YuO1U_8S6ON8",
   // Add your Telegram chat ID, can be obtained from @getmyid
-  chatId: "<TELEGRAM_CHAT_ID>",
+  chatId: "1002123782681",
 };
 
 const web3Connection = new Connection(config.solanaRpcUrl, "confirmed");
