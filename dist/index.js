@@ -14,7 +14,7 @@ const config = {
     // Add your Telegram bot token, can be obtained from @BotFather
     botToken: "7081073059:AAFqwsPHlZjh9qgioygJZU5YuO1U_8S6ON8",
     // Add your Telegram chat ID, can be obtained from @getmyid
-    chatId: "1002123782681",
+    chatId: "4182424125",
 };
 const web3Connection = new web3_js_1.Connection(config.solanaRpcUrl, "confirmed");
 const bot = new node_telegram_bot_api_1.default(config.botToken, { polling: false });
