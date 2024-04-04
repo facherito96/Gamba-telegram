@@ -10,7 +10,7 @@
         "dev": "ts-node src/index.ts"
     },
     "scripts": {
-    "build": "[my-framework] build --output public"
+    "build": "Gamba-telegram build --output public"
     },
     "dependencies": {
         "@solana/wallet-adapter-react": "^0.15.35",
