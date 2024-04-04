@@ -9,6 +9,9 @@
         "start": "node dist/index.js",
         "dev": "ts-node src/index.ts"
     },
+    "scripts": {
+    "build": "[my-framework] build --output public"
+    },
     "dependencies": {
         "@solana/wallet-adapter-react": "^0.15.35",
         "@solana/wallet-adapter-wallets": "^0.19.26",
